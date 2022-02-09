@@ -15,3 +15,7 @@
 
 # 备注
     1.具体使用方法参考WxJava项目即可, 个人建议多写单元测试跑通自己要用的接口
+    2.对于框架细节上会有遗漏, 可能存在问题.
+    3.接口序列化请使用com.google.gson.annotations注解 @SerializedName的方式
+    4.本项目存在分包不合理
+    5.Spring Boot 版本过低, 建议大家使用更高版本
