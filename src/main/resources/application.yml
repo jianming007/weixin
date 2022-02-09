@@ -1,0 +1,7 @@
+#主配置文件
+spring:
+  profiles:
+    active: test #该地方配置基本信息，其他配置指向application-test.yml,可创建多个
+  application:
+    name: weixin
+
